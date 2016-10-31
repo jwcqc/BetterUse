@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/me/hyman/betteruse/ui/adapter/BaseRecyclerViewAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/me/hyman/betteruse/ui/adapter/BaseViewHolder.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/me/hyman/betteruse/ui/adapter/animation" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/sample_footer_loading.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/splash2.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/sample_footer_loading_progress.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/def_loading.xml" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

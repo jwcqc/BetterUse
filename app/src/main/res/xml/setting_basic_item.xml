@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<PreferenceCategory android:title="切换主题" >
+        <Preference android:key="setting_theme" android:title="等着以后版本提供该功能"/>
+    </PreferenceCategory>-->
+
+    <PreferenceCategory android:title="主题">
+        <Preference android:key="setting_choose_theme" android:title="点击切换主题"/>
+        <!--<Preference android:key="pThemeCustom" android:title="@string/settings_custom_colors" />-->
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="阅读设置" >
+        <ListPreference
+            android:key="setting_list_font_size"
+            android:dialogTitle="请选择一项"
+            android:entries="@array/setting_text_size"
+            android:entryValues="@array/setting_text_size_value"
+            android:title="字体大小" />
+        <CheckBoxPreference
+            android:key="setting_show_remark"
+            android:title="列表显示备注名" />
+        <CheckBoxPreference
+            android:key="setting_auto_refresh"
+            android:title="进入首页自动刷新" />
+        <CheckBoxPreference
+            android:key="setting_auto_load_more"
+            android:title="滑动到底部自动加载更多" />
+        <CheckBoxPreference
+            android:key="setting_auto_use_inner_browser"
+            android:title="使用内置浏览器" />
+
+        <ListPreference
+            android:key="setting_list_timeline_count"
+            android:dialogTitle="请选择一项"
+            android:entries="@array/setting_timeline_count"
+            android:entryValues="@array/setting_timeline_count_value"
+            android:title="每次刷新加载微博数量"
+            android:summary="20条"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="图片设置" >
+        <ListPreference
+            android:key="setting_list_pic_quality"
+            android:dialogTitle="请选择一项"
+            android:entries="@array/setting_pic_quality"
+            android:entryValues="@array/setting_pic_quality_value"
+            android:title="图片质量"
+            android:summary="已选择高清" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="setting_pic_load_origin"
+            android:title="默认加载原图"
+            android:summary="建议在wifi环境下开启" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="setting_pic_wifi_optimize"
+            android:title="wifi下优化设置" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="其他">
+        <!--<Preference android:key="pPicSavePath" android:summary="/sdcard/" android:title="图片保存路径"/>-->
+        <!--<Preference android:key="pClearRecentMention" android:title="清除@还有历史记录"/>-->
+        <Preference android:key="setting_clear_cache" android:title="清理缓存" android:summary="0M" />
+        <Preference android:key="setting_feedback" android:title="意见反馈" />
+        <Preference android:key="setting_version" android:title="版本信息" android:summary="当前版本：beta1测试版" />
+        <Preference android:key="setting_about" android:title="关于" />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

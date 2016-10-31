@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_timeline"
+            android:icon="@drawable/ic_draw_main"
+            android:checked="true"
+            android:title="首页" />
+        <item
+            android:id="@+id/menu_mention"
+            android:icon="@drawable/ic_drawer_at"
+            android:title="提及" />
+        <item
+            android:id="@+id/menu_comment"
+            android:icon="@drawable/ic_draw_comment"
+            android:title="评论" />
+        <item
+            android:id="@+id/menu_private_msg"
+            android:icon="@drawable/ic_draw_private_msg"
+            android:title="私信" />
+    </group>
+
+    <item android:title="其他">
+        <menu>
+            <item
+                android:id="@+id/menu_hot_statuses"
+                android:title="热门微博" />
+            <item
+                android:id="@+id/menu_draft"
+                android:title="草稿箱" />
+            <item
+                android:id="@+id/menu_settings"
+                android:title="设置" />
+        </menu>
+    </item>
+
+</menu>

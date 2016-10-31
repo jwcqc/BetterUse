@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="4dp"
+    android:paddingTop="4dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"  >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/selector_item_timeline"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        >   <!-- @drawable/timeline_publish_single_normal-->
+
+
+
+        <RelativeLayout
+            android:id="@+id/container_weibo_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <me.hyman.betteruse.ui.view.CircleImageView
+                android:id="@+id/imgPhoto"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/sina_weibo_512x512" />
+
+
+            <TextView
+                android:id="@+id/txtName"
+                style="@style/TextTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/imgPhoto"
+                android:text="名字" />
+
+            <ImageView
+                android:id="@+id/imgVerified"
+                android:layout_width="18dip"
+                android:layout_height="18dip"
+                android:layout_marginLeft="4dip"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@id/txtName"
+                android:src="@drawable/ic_vip" /> <!--android:visibility="gone" -->
+
+            <TextView
+                android:id="@+id/txtFromAndTime"
+                style="@style/TextSubhead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtName"
+                android:layout_marginTop="3dip"
+                android:layout_toRightOf="@id/imgPhoto"
+                android:text="来自宇宙无敌超级大手机 2015-09-22" />
+
+          <!-- <TextView
+                android:id="@+id/txtContent"
+                style="@style/TextBody"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgPhoto"
+                android:layout_marginBottom="4dip"
+                android:layout_marginTop="10dip"
+                android:lineSpacingExtra="2dip"
+                android:text="哈哈，我今天发了条微博" />-->
+
+             <me.hyman.betteruse.ui.view.WeiboTextView
+                android:id="@+id/txtContent"
+                style="@style/TextBody"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgPhoto"
+                android:layout_marginBottom="4dip"
+                android:layout_marginTop="10dip"
+                android:lineSpacingExtra="2dip"
+                android:text="哈哈，我今天发了条微博" />
+
+
+            <RelativeLayout
+                android:id="@+id/layRepost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtContent"
+                android:layout_marginLeft="-10dip"
+                android:layout_marginRight="-10dip"
+                android:orientation="vertical"
+                android:paddingBottom="4dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip">
+
+                <View
+                    android:id="@+id/layReDivider"
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dip"
+                    android:layout_marginBottom="8dip"
+                    android:background="@color/divider" />
+
+              <!--  <TextView
+                    android:id="@+id/txtReContent"
+                    style="@style/TextBody"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/layReDivider"
+                    android:lineSpacingExtra="2dip"
+                    android:text="哈哈，我发了条微博被习大大转发了，好开森！" />-->
+
+                <me.hyman.betteruse.ui.view.WeiboTextView
+                    android:id="@+id/txtReContent"
+                    style="@style/TextBody"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/layReDivider"
+                    android:lineSpacingExtra="2dip"
+                    android:text="哈哈，我发了条微博被习大大转发了，好开森！" />
+
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <me.hyman.betteruse.ui.view.TimelinePicsView
+            android:id="@+id/layPicturs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/img01"
+                style="@style/timelinePicture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/img02"
+                style="@style/timelinePicture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/img03"
+                style="@style/timelinePicture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/img04"
+                style="@style/timelinePicture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/img05"
+                style="@style/timelinePicture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/img06"
+                style="@style/timelinePicture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/img07"
+                style="@style/timelinePicture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/img08"
+                style="@style/timelinePicture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/img09"
+                style="@style/timelinePicture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </me.hyman.betteruse.ui.view.TimelinePicsView>
+
+        <TextView
+            android:id="@+id/txtPics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_80"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtVisible"
+            style="@style/TextSubhead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_54"
+            android:text="分组可见"
+            android:visibility="gone"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dip"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/btnLike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dip"
+                android:background="?attr/selectableItemBackground"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="2dip">
+
+                <ImageView
+                    android:id="@+id/imgLike"
+                    android:layout_width="24dip"
+                    android:layout_height="20dip"
+                    android:src="@drawable/selector_weibo_like" />
+
+                <TextView
+                    android:id="@+id/txtLike"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dip"
+                    android:text="1人赞了"
+                    android:textColor="@color/text_54"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnCmt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="?attr/selectableItemBackground"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="24dip"
+                    android:layout_height="20dip"
+                    android:src="@drawable/timeline_icon_comment" />
+
+                <TextView
+                    android:id="@+id/txtComment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="100"
+                    android:textColor="@color/text_54"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnRepost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:layout_toLeftOf="@id/btnCmt"
+                android:background="?attr/selectableItemBackground"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="24dip"
+                    android:layout_height="20dip"
+                    android:src="@drawable/timeline_icon_redirect" />
+
+                <TextView
+                    android:id="@+id/txtRepost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="100"
+                    android:textColor="@color/text_54"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btnMenus"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:layout_alignParentRight="true"
+        android:paddingBottom="8dip"
+        android:src="@drawable/selector_card_menu" />
+
+
+</RelativeLayout>

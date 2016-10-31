@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">This is Better</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="loading">正在加载...</string>
+    <string name="cancel">取消</string>
+    <string name="setting">设置</string>
+
+    <!--  app引导页相关  -->
+    <string name = "skip_button">跳过</string>
+    <string name = "done_button">继续</string>
+
+    <string name = "forTest">凯文·凯利（Kevin Kelly，1952年4月27日～，人们昵称他为 KK），
+他影响了苹果公司的史蒂夫·乔布斯、《连线》杂志的总编克里斯·安德森、《黑客帝国》的导演沃卓斯基兄弟、《少数派报告》的导演史蒂文·斯皮尔伯格；他参与创办了《连线》杂志、发起第一届黑客大会、创作《失 控》……；他是网络文化的发言人和观察者……他是——凯文·凯利
+《连线》（Wired）杂志创始主编。在创办《连线》之前，是《全球概览》杂志（The Whole Earth Catalog，乔布斯最喜欢的杂志）的编辑和出版人。1984年，KK发起了第一届黑客大会（Hackers Conference）。他的文章还出现在《纽约时报》、《经济学人》、《时代》、《科学》等重量级媒体和杂志上。
+凯文·凯利被看作是“网络文化”（Cyberculture）的发言人和观察者，也有人称之为“游侠”（maverick）。凯文·凯利（Kevin Kelly，1952年4月27日～，人们昵称他为 KK），
+他影响了苹果公司的史蒂夫·乔布斯、《连线》杂志的总编克里斯·安德森、《黑客帝国》的导演沃卓斯基兄弟、《少数派报告》的导演史蒂文·斯皮尔伯格；他参与创办了《连线》杂志、发起第一届黑客大会、创作《失 控》……；他是网络文化的发言人和观察者……他是——凯文·凯利
+《连线》（Wired）杂志创始主编。在创办《连线》之前，是《全球概览》杂志（The Whole Earth Catalog，乔布斯最喜欢的杂志）的编辑和出版人。1984年，KK发起了第一届黑客大会（Hackers Conference）。他的文章还出现在《纽约时报》、《经济学人》、《时代》、《科学》等重量级媒体和杂志上。
+凯文·凯利被看作是“网络文化”（Cyberculture）的发言人和观察者，也有人称之为“游侠”（maverick）。凯文·凯利（Kevin Kelly，1952年4月27日～，人们昵称他为 KK），
+他影响了苹果公司的史蒂夫·乔布斯、《连线》杂志的总编克里斯·安德森、《黑客帝国》的导演沃卓斯基兄弟、《少数派报告》的导演史蒂文·斯皮尔伯格；他参与创办了《连线》杂志、发起第一届黑客大会、创作《失 控》……；他是网络文化的发言人和观察者……他是——凯文·凯利
+《连线》（Wired）杂志创始主编。在创办《连线》之前，是《全球概览》杂志（The Whole Earth Catalog，乔布斯最喜欢的杂志）的编辑和出版人。1984年，KK发起了第一届黑客大会（Hackers Conference）。他的文章还出现在《纽约时报》、《经济学人》、《时代》、《科学》等重量级媒体和杂志上。
+凯文·凯利被看作是“网络文化”（Cyberculture）的发言人和观察者，也有人称之为“游侠”（maverick）。凯文·凯利（Kevin Kelly，1952年4月27日～，人们昵称他为 KK），
+他影响了苹果公司的史蒂夫·乔布斯、《连线》杂志的总编克里斯·安德森、《黑客帝国》的导演沃卓斯基兄弟、《少数派报告》的导演史蒂文·斯皮尔伯格；他参与创办了《连线》杂志、发起第一届黑客大会、创作《失 控》……；他是网络文化的发言人和观察者……他是——凯文·凯利
+《连线》（Wired）杂志创始主编。在创办《连线》之前，是《全球概览》杂志（The Whole Earth Catalog，乔布斯最喜欢的杂志）的编辑和出版人。1984年，KK发起了第一届黑客大会（Hackers Conference）。他的文章还出现在《纽约时报》、《经济学人》、《时代》、《科学》等重量级媒体和杂志上。
+凯文·凯利被看作是“网络文化”（Cyberculture）的发言人和观察者，也有人称之为“游侠”（maverick）。凯文·凯利（Kevin Kelly，1952年4月27日～，人们昵称他为 KK），
+他影响了苹果公司的史蒂夫·乔布斯、《连线》杂志的总编克里斯·安德森、《黑客帝国》的导演沃卓斯基兄弟、《少数派报告》的导演史蒂文·斯皮尔伯格；他参与创办了《连线》杂志、发起第一届黑客大会、创作《失 控》……；他是网络文化的发言人和观察者……他是——凯文·凯利
+《连线》（Wired）杂志创始主编。在创办《连线》之前，是《全球概览》杂志（The Whole Earth Catalog，乔布斯最喜欢的杂志）的编辑和出版人。1984年，KK发起了第一届黑客大会（Hackers Conference）。他的文章还出现在《纽约时报》、《经济学人》、《时代》、《科学》等重量级媒体和杂志上。
+凯文·凯利被看作是“网络文化”（Cyberculture）的发言人和观察者，也有人称之为“游侠”（maverick）。凯文·凯利（Kevin Kelly，1952年4月27日～，人们昵称他为 KK），
+他影响了苹果公司的史蒂夫·乔布斯、《连线》杂志的总编克里斯·安德森、《黑客帝国》的导演沃卓斯基兄弟、《少数派报告》的导演史蒂文·斯皮尔伯格；他参与创办了《连线》杂志、发起第一届黑客大会、创作《失 控》……；他是网络文化的发言人和观察者……他是——凯文·凯利
+《连线》（Wired）杂志创始主编。在创办《连线》之前，是《全球概览》杂志（The Whole Earth Catalog，乔布斯最喜欢的杂志）的编辑和出版人。1984年，KK发起了第一届黑客大会（Hackers Conference）。他的文章还出现在《纽约时报》、《经济学人》、《时代》、《科学》等重量级媒体和杂志上。
+凯文·凯利被看作是“网络文化”（Cyberculture）的发言人和观察者，也有人称之为“游侠”（maverick）。</string>
+
+
+
+    <!--  授权相关  -->
+    <!--  *****************************************************  -->
+    <string name = "auth_fail">授权失败</string>
+    <string name = "auth_cancel">已取消授权</string>
+    <string name = "auth_succeed">授权成功</string>
+    <string name = "account_empty">没有授权账号</string>
+    <string name = "account_add">添加账号</string>
+
+    <!--  *****************************************************  -->
+
+
+    <!--  其他Toast或SnakeBar提示  -->
+    <!--  *****************************************************  -->
+    <string name="msg_url_copyed">链接已复制</string>
+    <string name="msg_network_not_available">网络未连接</string>
+    <string name="msg_no_more_new_weibo">已是最新微博</string>
+    <string name="msg_no_weibo_loaded">没有加载到微博</string>
+    <string name="msg_press_twice_exit_app">再按一次退出程序</string>
+    <!--  *****************************************************  -->
+
+
+    <!--  菜单相关  -->
+    <!--  *****************************************************  -->
+    <string name="action_add_account">添加授权</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="refresh">刷新</string>
+    <string name="share">分享</string>
+    <string name="copy_url">复制链接</string>
+    <string name="to_browser">在浏览器打开</string>
+
+    <string name="timeline_cmt">评论</string>
+    <string name="timeline_repost">转发</string>
+    <string name="timeline_fav">收藏</string>
+    <string name="timeline_fav_destory">取消收藏</string>
+    <string name="timeline_weiguan">围观</string>
+    <string name="timeline_copy">复制</string>
+    <string name="menu_delete">删除</string>
+
+    <!--  *****************************************************  -->
+
+
+    <!-- 微博正文显示需要  -->
+    <string name="msg_now">刚刚</string>
+    <string name="msg_today">今天</string>
+    <string name="msg_yesterday">昨天</string>
+    <string name="msg_few_minutes_ago">分钟前</string>
+    <string name="msg_ten_thousand">万</string>
+    <string name="publish_group_visible">分组可见：%s</string>
+
+
+    <!--  Activity/Fragment 相关  -->
+    <!--  *****************************************************  -->
+
+
+
+    <!--  *****************************************************  -->
+
+    <!--  一些默认值 -->
+    <!--  *****************************************************  -->
+    <string name="default_text_size_value">1</string>  <!-- 对应到setting_text_size_value -->
+
+    <!--  *****************************************************  -->
+
+
+    <string-array name="setting_fab">
+        <item>发微博</item>
+        <item>刷新</item>
+        <item>没了</item>
+    </string-array>
+    <string-array name="setting_fab_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="setting_text_size">
+        <item>小</item>
+        <item>标准</item>
+        <item>大</item>
+    </string-array>
+    <string-array name="setting_text_size_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="setting_pic_quality">
+        <item>普通</item>
+        <item>中等</item>
+        <item>高清</item>
+    </string-array>
+    <string-array name="setting_pic_quality_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="setting_timeline_count">
+        <item>20</item>
+        <item>50</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="setting_timeline_count_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

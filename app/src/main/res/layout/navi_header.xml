@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="182dp"
+    android:background="@drawable/drawer_background"
+    android:orientation="vertical"
+    android:padding="18dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Light">
+    <!--android:background="?attr/colorPrimaryDark" -->
+
+    <TextView
+        android:id="@+id/txt_header_account_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="这儿是描述..."
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/txt_header_account_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/txt_header_account_desc"
+        android:text="这儿是名字"
+        android:textColor="@color/white"/>
+
+    <me.hyman.betteruse.ui.view.CircleImageView
+        android:id="@+id/img_header_account_head"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_above="@id/txt_header_account_name"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/sina_weibo_512x512"
+        app:border_width="0.5dp"
+        app:border_color="@color/background_floating_material_light" />
+
+</RelativeLayout>

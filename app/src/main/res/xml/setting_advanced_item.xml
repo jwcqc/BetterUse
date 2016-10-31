@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="通用设置" >
+        <Preference android:key="setting_account_mgr" android:title="账号管理" android:summary="1个授权账号" />
+
+        <Preference android:key="setting_msg_mgr" android:title="通知中心" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
